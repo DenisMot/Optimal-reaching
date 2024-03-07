@@ -2,8 +2,7 @@
 # Visit https://bit.ly/cffinit to generate yours today!
 
 cff-version: 1.2.0
-title: >-
-  Optimal-reaching
+title: Optimal-reaching
 message: >-
   If you use this software, please cite it using the
   metadata from this file.
@@ -11,6 +10,12 @@ type: software
 authors:
   - given-names: Patrick
     family-names: Greene
+  - given-names: Amy J.
+    family-names: Bastian
+  - given-names: Marc H.
+    family-names: Schieber
+  - given-names: Sridevi V.
+    family-names: Sarma
 repository-code: 'https://github.com/ncsl/Optimal-reaching'
 abstract: >-
   Code for paper "Optimal reaching subject to computational
