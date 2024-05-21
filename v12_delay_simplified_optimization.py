@@ -19,7 +19,10 @@ Q_DELAY = 0.0 # feedback delay (in sec)
 
 
 dir_str = str(Q_DELAY) + "_feedback_delay_" + "v12"
-os.system("mkdir optimization_output/" + dir_str)
+
+if not os.path.exists("optimization_output/" + dir_str):
+    os.makedirs("optimization_output/" + dir_str)
+
 save_dir = "optimization_output/" + dir_str + "/"
 
 RANDOM_P_INIT = True
